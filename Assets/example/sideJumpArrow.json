@@ -10,7 +10,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10001",
-	"frame": {"x":198,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -18,7 +18,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10002",
-	"frame": {"x":396,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -26,7 +26,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10003",
-	"frame": {"x":594,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -34,7 +34,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10004",
-	"frame": {"x":792,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -42,7 +42,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10005",
-	"frame": {"x":990,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -50,7 +50,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10006",
-	"frame": {"x":1188,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -58,7 +58,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10007",
-	"frame": {"x":1386,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -66,7 +66,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10008",
-	"frame": {"x":1584,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -74,7 +74,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10009",
-	"frame": {"x":1782,"y":0,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -82,7 +82,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10010",
-	"frame": {"x":0,"y":312,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -90,7 +90,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10011",
-	"frame": {"x":198,"y":312,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -98,7 +98,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10012",
-	"frame": {"x":396,"y":312,"w":188,"h":302},
+	"frame": {"x":198,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -106,7 +106,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10013",
-	"frame": {"x":594,"y":312,"w":188,"h":302},
+	"frame": {"x":396,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -114,7 +114,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10014",
-	"frame": {"x":792,"y":312,"w":188,"h":302},
+	"frame": {"x":594,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -122,7 +122,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10015",
-	"frame": {"x":990,"y":312,"w":188,"h":302},
+	"frame": {"x":792,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -130,7 +130,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10016",
-	"frame": {"x":1188,"y":312,"w":188,"h":302},
+	"frame": {"x":990,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -138,7 +138,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10017",
-	"frame": {"x":1386,"y":312,"w":188,"h":302},
+	"frame": {"x":1188,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -146,7 +146,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10018",
-	"frame": {"x":1584,"y":312,"w":188,"h":302},
+	"frame": {"x":1386,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -154,7 +154,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10019",
-	"frame": {"x":1782,"y":312,"w":188,"h":302},
+	"frame": {"x":1584,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -162,7 +162,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10020",
-	"frame": {"x":0,"y":624,"w":188,"h":302},
+	"frame": {"x":1782,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -170,7 +170,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10021",
-	"frame": {"x":198,"y":624,"w":188,"h":302},
+	"frame": {"x":0,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -178,7 +178,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10022",
-	"frame": {"x":396,"y":624,"w":188,"h":302},
+	"frame": {"x":198,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -186,7 +186,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10023",
-	"frame": {"x":594,"y":624,"w":188,"h":302},
+	"frame": {"x":396,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -194,7 +194,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10024",
-	"frame": {"x":792,"y":624,"w":188,"h":302},
+	"frame": {"x":594,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -202,7 +202,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10025",
-	"frame": {"x":990,"y":624,"w":188,"h":302},
+	"frame": {"x":792,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -210,7 +210,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10026",
-	"frame": {"x":1188,"y":624,"w":188,"h":302},
+	"frame": {"x":990,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -218,7 +218,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10027",
-	"frame": {"x":1386,"y":624,"w":188,"h":302},
+	"frame": {"x":1188,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -226,7 +226,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10028",
-	"frame": {"x":1584,"y":624,"w":188,"h":302},
+	"frame": {"x":1386,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -234,7 +234,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10029",
-	"frame": {"x":1782,"y":624,"w":188,"h":302},
+	"frame": {"x":1584,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -242,7 +242,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10030",
-	"frame": {"x":0,"y":936,"w":188,"h":302},
+	"frame": {"x":1782,"y":312,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -250,7 +250,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10031",
-	"frame": {"x":198,"y":936,"w":188,"h":302},
+	"frame": {"x":0,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -258,7 +258,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10032",
-	"frame": {"x":396,"y":936,"w":188,"h":302},
+	"frame": {"x":198,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -266,7 +266,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10033",
-	"frame": {"x":594,"y":936,"w":188,"h":302},
+	"frame": {"x":396,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -274,7 +274,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10034",
-	"frame": {"x":792,"y":936,"w":188,"h":302},
+	"frame": {"x":594,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -282,7 +282,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10035",
-	"frame": {"x":990,"y":936,"w":188,"h":302},
+	"frame": {"x":792,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -290,7 +290,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10036",
-	"frame": {"x":1188,"y":936,"w":188,"h":302},
+	"frame": {"x":990,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -298,7 +298,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10037",
-	"frame": {"x":1386,"y":936,"w":188,"h":302},
+	"frame": {"x":1188,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -306,7 +306,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10038",
-	"frame": {"x":1584,"y":936,"w":188,"h":302},
+	"frame": {"x":1386,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -314,7 +314,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10039",
-	"frame": {"x":1782,"y":936,"w":188,"h":302},
+	"frame": {"x":1584,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -322,7 +322,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10040",
-	"frame": {"x":0,"y":1248,"w":188,"h":302},
+	"frame": {"x":1782,"y":624,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -330,7 +330,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10041",
-	"frame": {"x":198,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":936,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -338,7 +338,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10042",
-	"frame": {"x":396,"y":1248,"w":188,"h":302},
+	"frame": {"x":198,"y":936,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -346,7 +346,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10043",
-	"frame": {"x":594,"y":1248,"w":188,"h":302},
+	"frame": {"x":396,"y":936,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -354,7 +354,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10044",
-	"frame": {"x":792,"y":1248,"w":188,"h":302},
+	"frame": {"x":594,"y":936,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -362,7 +362,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10045",
-	"frame": {"x":990,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -370,7 +370,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10046",
-	"frame": {"x":1188,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -378,7 +378,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10047",
-	"frame": {"x":1386,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -386,7 +386,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10048",
-	"frame": {"x":1584,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -394,7 +394,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10049",
-	"frame": {"x":1782,"y":1248,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -402,7 +402,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10050",
-	"frame": {"x":0,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -410,7 +410,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10051",
-	"frame": {"x":198,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -418,7 +418,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10052",
-	"frame": {"x":396,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -426,7 +426,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10053",
-	"frame": {"x":594,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -434,7 +434,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10054",
-	"frame": {"x":792,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -442,7 +442,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10055",
-	"frame": {"x":990,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -450,7 +450,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10056",
-	"frame": {"x":1188,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -458,7 +458,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10057",
-	"frame": {"x":1386,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -466,7 +466,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10058",
-	"frame": {"x":1584,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
@@ -474,7 +474,7 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10059",
-	"frame": {"x":1782,"y":1560,"w":188,"h":302},
+	"frame": {"x":0,"y":0,"w":188,"h":302},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},

@@ -29,10 +29,6 @@ public class SpriteSheetPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		test ();
-//		return;
-
-		print (currentFrame);
 		Sprite sprite = sprites [currentFrame];
 		spriteRenderer.sprite = sprite;
 		currentFrame++;
@@ -41,6 +37,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		}
 	}
 
+	/*
 	public int x;
 	public int y;
 	public int w = 188;
@@ -53,6 +50,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		Sprite sprite = Sprite.Create (texture, rect, pivot );
 		spriteRenderer.sprite = sprite;
 	}
+	*/
 
 }
 
