@@ -474,9 +474,9 @@
 }
 ,{
 	"filename": "sideJumpArrow インスタンス 10059",
-	"frame": {"x":1782,"y":1560,"w":188,"h":111},
+	"frame": {"x":1782,"y":1560,"w":188,"h":302},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":302},
 	"sourceSize": {"w":188,"h":302}
 }],
