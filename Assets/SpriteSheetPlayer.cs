@@ -36,6 +36,14 @@ public class SpriteSheetPlayer : MonoBehaviour {
 			currentFrame = 0;
 		}
 	}
+		
+	void OnDrawGizmos (){
+		SpriteSheetData data = JsonUtility.FromJson<SpriteSheetData> (spriteSheetData.text);
+		Rect rect = data.getRectAt (0);
+
+		Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
+		Gizmos.DrawWireCube (transform.position, new Vector3(rect.width/100f,rect.height/100f,0));
+	}
 
 	/*
 	public int x;
@@ -56,8 +64,8 @@ public class SpriteSheetPlayer : MonoBehaviour {
 
 [System.Serializable]
 class SpriteSheetData{
-	public Frame[] frames;
-	public Metadata meta;
+	public Frame[] frames = null;
+	public Metadata meta = null;
 
 	public Rect getRectAt(int index){
 		Frame frame = frames[index];
