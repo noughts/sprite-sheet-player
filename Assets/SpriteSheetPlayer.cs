@@ -21,9 +21,8 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		sprites = new Sprite[len];
 		for( int i=0; i<len; i++){
 			Rect rect = data.getRectAt (i);
-			print ("i="+ i+ ", rect="+ rect);
 			Vector2 pivot = new Vector2 ( 0.5f, 0.5f );
-			Sprite sprite = Sprite.Create (texture, rect, pivot );
+			Sprite sprite = Sprite.Create (texture, rect, pivot, 100, 0, SpriteMeshType.FullRect );
 			sprites [i] = sprite;
 		}
 	}
