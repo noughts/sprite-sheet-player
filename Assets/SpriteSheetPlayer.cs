@@ -7,6 +7,9 @@ public class SpriteSheetPlayer : MonoBehaviour {
 	public Texture2D texture;
 	public TextAsset spriteSheetData;
 
+	public float pivotX = 0.5f;
+	public float pivotY = 0.5f;
+
 	SpriteRenderer spriteRenderer;
 	Sprite[] sprites;
 
@@ -21,7 +24,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		sprites = new Sprite[len];
 		for( int i=0; i<len; i++){
 			Rect rect = data.getRectAt (i);
-			Vector2 pivot = new Vector2 ( 0.5f, 0.5f );
+			Vector2 pivot = new Vector2 ( pivotX, pivotY );
 			Sprite sprite = Sprite.Create (texture, rect, pivot, 100, 0, SpriteMeshType.FullRect );
 			sprites [i] = sprite;
 		}
