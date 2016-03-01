@@ -8,20 +8,34 @@ public class SpriteSheetPlayer : MonoBehaviour {
 	public TextAsset spriteSheetData;
 
 	SpriteRenderer spriteRenderer;
+	Sprite[] sprites;
+
+	int currentFrame = 0;
 
 	// Use this for initialization
 	void Start () {
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		SpriteSheetData data = JsonUtility.FromJson<SpriteSheetData> (spriteSheetData.text);
-		Debug.Log(data.frames[0]);
+
+		int len = data.frames.Length;
+		sprites = new Sprite[len];
+		for( int i=0; i<len; i++){
+			Frame frame = data.frames [i];
+			Vector2 pivot = new Vector2 ( 0, 0 );
+			Sprite sprite = Sprite.Create (texture, frame.getRect(), pivot );
+			sprites [i] = sprite;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Rect rect = new Rect (0, 0, 400, 400);
-		Vector2 pivot = new Vector2 ( 0, 0 );
-		Sprite sprite = Sprite.Create (texture, rect, pivot );
-//		spriteRenderer.sprite = sprite;
+		print (currentFrame);
+		Sprite sprite = sprites [currentFrame];
+		spriteRenderer.sprite = sprite;
+		currentFrame++;
+		if( currentFrame >= sprites.Length ){
+			currentFrame = 0;
+		}
 	}
 }
 
@@ -34,6 +48,11 @@ class SpriteSheetData{
 class Frame{
 	public string filename;
 	public FrameRect frame;
+
+	public Rect getRect(){
+		return frame.getRect ();
+	}
+
 	public override string ToString(){
 		return "filename="+ filename + ", frame="+ frame;
 	}
@@ -45,6 +64,11 @@ class FrameRect{
 	public int y;
 	public int h;
 	public int w;
+
+	public Rect getRect(){
+		return new Rect (x,y,w,h);
+	}
+
 	public override string ToString(){
 		return "x=" + x + ", y=" + y + ", h=" + h + ", w=" + w;
 	}
