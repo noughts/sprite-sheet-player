@@ -46,10 +46,12 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		SpriteSheetData data = JsonUtility.FromJson<SpriteSheetData> (spriteSheetData.text);
 		Rect rect = data.getRectAt (0);
 
-//		Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
 		Vector3 position = transform.position;
 		position.x -= (pivotX  - 0.5f) * (rect.width/100f);
 		position.y -= (pivotY - 0.5f) * (rect.height/100f);
+
+//		Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
+//		Gizmos.matrix = transform.localToWorldMatrix;
 		Gizmos.DrawWireCube (position, new Vector3(rect.width/100f,rect.height/100f,0));
 	}
 }
