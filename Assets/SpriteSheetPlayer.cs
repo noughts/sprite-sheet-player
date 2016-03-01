@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
+[RequireComponent(typeof(SpriteRenderer))]
 public class SpriteSheetPlayer : MonoBehaviour {
 
 	public Texture2D texture;
@@ -26,7 +26,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 			sprites [i] = sprite;
 		}
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		Sprite sprite = sprites [currentFrame];
@@ -98,4 +98,3 @@ class MyRect{
 class Metadata{
 	public MyRect size;
 }
-
