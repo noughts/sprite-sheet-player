@@ -21,15 +21,16 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		sprites = new Sprite[len];
 		for( int i=0; i<len; i++){
 			Frame frame = data.frames [i];
-			Vector2 pivot = new Vector2 ( 0, 0 );
-			Sprite sprite = Sprite.Create (texture, frame.getRect(), pivot );
+			Rect rect = frame.getRect ();
+//			rect = new Rect (0,0,300,300);
+			Vector2 pivot = new Vector2 ( 0,0 );
+			Sprite sprite = Sprite.Create (texture, rect, pivot );
 			sprites [i] = sprite;
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		print (currentFrame);
 		Sprite sprite = sprites [currentFrame];
 		spriteRenderer.sprite = sprite;
 		currentFrame++;
