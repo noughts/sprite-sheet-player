@@ -30,6 +30,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		}
 	}
 
+
 	// Update is called once per frame
 	void Update () {
 		Sprite sprite = sprites [currentFrame];
@@ -40,6 +41,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		}
 	}
 		
+
 	void OnDrawGizmos (){
 		SpriteSheetData data = JsonUtility.FromJson<SpriteSheetData> (spriteSheetData.text);
 		Rect rect = data.getRectAt (0);
@@ -47,23 +49,11 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
 		Gizmos.DrawWireCube (transform.position, new Vector3(rect.width/100f,rect.height/100f,0));
 	}
-
-	/*
-	public int x;
-	public int y;
-	public int w = 188;
-	public int h = 302;
-	public float px;
-	public float py;
-	void test(){
-		Rect rect = new Rect (x,y,w,h);
-		Vector2 pivot = new Vector2 (px,py);
-		Sprite sprite = Sprite.Create (texture, rect, pivot );
-		spriteRenderer.sprite = sprite;
-	}
-	*/
-
 }
+
+
+
+
 
 [System.Serializable]
 class SpriteSheetData{
