@@ -19,6 +19,9 @@ public class SpriteSheetPlayer : MonoBehaviour {
 	void Start () {
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		SpriteSheetData data = JsonUtility.FromJson<SpriteSheetData> (spriteSheetData.text);
+		if( data.meta.size.w > 2048 || data.meta.size.h > 2048 ){
+			Debug.LogError ( "スプライトシートのサイズは2048×2048以内にしてください" );
+		}
 
 		int len = data.frames.Length;
 		sprites = new Sprite[len];
@@ -75,8 +78,8 @@ class SpriteSheetData{
 
 [System.Serializable]
 class Frame{
-	public string filename;
-	public MyRect frame;
+	public string filename = null;
+	public MyRect frame = null;
 
 	public override string ToString(){
 		return "filename="+ filename + ", frame="+ frame;
@@ -85,10 +88,10 @@ class Frame{
 
 [System.Serializable]
 class MyRect{
-	public int x;
-	public int y;
-	public int h;
-	public int w;
+	public int x = 0;
+	public int y = 0;
+	public int h = 0;
+	public int w = 0;
 
 	public Rect getRect(){
 		return new Rect (x,y,w,h);
@@ -102,5 +105,5 @@ class MyRect{
 
 [System.Serializable]
 class Metadata{
-	public MyRect size;
+	public MyRect size = null;
 }
