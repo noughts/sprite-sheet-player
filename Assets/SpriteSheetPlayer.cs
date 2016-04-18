@@ -10,6 +10,7 @@ public class SpriteSheetPlayer : MonoBehaviour {
 
 	public float pivotX = 0.5f;
 	public float pivotY = 0.5f;
+	public bool autoInactive = false;
 
 	SpriteRenderer spriteRenderer;
 	Sprite[] sprites;
@@ -42,6 +43,9 @@ public class SpriteSheetPlayer : MonoBehaviour {
 		currentFrame++;
 		if( currentFrame >= sprites.Length ){
 			currentFrame = 0;
+			if( autoInactive ){
+			    gameObject.SetActive (false);
+			}
 		}
 	}
 }
